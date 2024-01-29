@@ -22,7 +22,7 @@ category_images = {
 
 # Streamlit app
 def main():
-    st.title("Aplikasi Klasifikasi Berita Pemilu 2024")
+    st.title("Klasifikasi Berita Pemilu 2024")
 
     # User input text box
     user_input = st.text_area("Masukkan berita pemilu:", "")
