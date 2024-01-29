@@ -32,7 +32,7 @@ def main():
         prediction = predict_news_category(user_input)
 
         # Display the results
-        st.subheader("Nilai Prediksi:")
+        st.subheader("Nilai:")
         display_prediction_table(prediction)
 
         # Display image based on max_category
@@ -60,7 +60,7 @@ def display_prediction_table(prediction):
     st.table(df_prediction)
 
     # Display the result based on the highest prediction
-    st.subheader(f"Hasil Prediksi: {max_category}")
+    st.subheader(f"Hasil Klasifikasi: {max_category}")
 
 def display_category_image(prediction):
     # Find the category with the highest prediction value
